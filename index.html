@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDY 日程安排</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #3498db;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e1e1e1;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        tr:hover {
+            background-color: #f5f9fc;
+        }
+        .status-in-progress {
+            color: #e67e22;
+            font-weight: 600;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #1a5276;
+            text-decoration: underline;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SDY 日程安排</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>日期</th>
+                    <th>项目</th>
+                    <th>状态</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10.3</td>
+                    <td><a href="./group_discussion.html" target="_blank">无领导小组讨论(点击查看更多信息)</a></td>
+                    <td class="status-in-progress">进行中</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="footer">
+            <p>最后更新: 2023年10月3日</p>
+        </div>
+    </div>
+</body>
+</html>
